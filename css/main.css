@@ -1,14 +1,7 @@
 /* comentario que se ve en sass y css */
+h2 {
+  color: red;
+  font-size: 80px; }
+
 header {
-  background-color: aqua;
-  width: 300px;
-  padding: 50px;
-  border-radius: 1px solid black; }
-  header .titulo {
-    color: red; }
-  header nav {
-    background-color: antiquewhite; }
-    header nav ul {
-      background-color: hotpink; }
-    header nav li {
-      background-color: b; }
+  width: 200px; }

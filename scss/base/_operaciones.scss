@@ -1,0 +1,6 @@
+// operaciones en scss podemos tener sumas y restas
+$ancho-principal: 400;
+
+header{
+    width: $ancho-principal - 200px;
+}

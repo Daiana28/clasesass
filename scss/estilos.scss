@@ -2,36 +2,9 @@
 
 /* comentario que se ve en sass y css */
 
+@import "base/variables";
+@import "components/header";
+@import "base/operaciones";
 
-// primer poder de sass anidacion
 
-header{
-    background-color: aqua;
-    width: 300px;
-    padding: 50px;
-    border-radius: 1px solid black;
-  .titulo{
-     color: red;
-      }
-     nav{
-     background-color: antiquewhite;
-      ul{
-      background-color: hotpink;
-       }
-    li{
-    background-color: black;
-    &:hover{
-        color: yellow;
-         }
-    }
-  }
-
-}
-
-// segundo poder de sass variables
-
-// DEFINIR COLORES, TIPOGRAFIAS, ETC EN SCSS
-
-$color-principal: #f1948A;
-$medida-principal: 300px;
 
