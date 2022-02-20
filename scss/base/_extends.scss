@@ -1,0 +1,25 @@
+/* extends */
+
+%botones {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+main{
+    background-color: red;
+    width: 400px;
+    @extend %botones;
+}
+
+%estilos-principales{
+    color: red;
+    font-size: 40px;
+    margin: 30px;
+}
+
+footer{
+    background-color: yellow;
+    width: 600px;
+    @extend %botones;
+}

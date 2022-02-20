@@ -1,0 +1,14 @@
+$colores:
+red,
+yellow,
+white,
+black,
+green;
+
+h1{
+    color: nth($colores, 2)
+}
+
+header{
+    background-color: nth($colores, 3);
+}
